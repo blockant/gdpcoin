@@ -1,0 +1,26 @@
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  /* float: left; */
+  min-width: 3rem;
+  padding: 0.4rem 0;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: none;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.menuItemContainer {
+  padding: 5px 15px;
+  outline: 0;
+  transition: all 0.5s;
+  color: #1b7b65;
+  cursor: pointer;
+}
+.menuIcon {
+  padding-right: 10px;
+}
